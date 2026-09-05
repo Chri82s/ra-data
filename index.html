@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RA Netherlands Events Monitor</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #121212; color: #fff; margin: 0; padding: 20px; }
+        h1 { color: #fff; margin-bottom: 5px; }
+        .controls { margin-bottom: 20px; display: flex; gap: 10px; align-items: center; }
+        input[type="date"] { padding: 8px; border-radius: 4px; border: 1px solid #333; background: #222; color: #fff; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+        .card { background: #1e1e1e; border-radius: 8px; overflow: hidden; border: 1px solid #2a2a2a; display: flex; flex-direction: column; }
+        .card img { width: 100%; height: 160px; object-fit: cover; background: #2a2a2a; }
+        .card-content { padding: 16px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; }
+        .card h3 { margin: 0 0 8px 0; font-size: 1.1rem; }
+        .meta { font-size: 0.85rem; color: #aaa; margin-bottom: 8px; }
+        .venue { color: #3b82f6; font-weight: bold; }
+        .status { padding: 8px 12px; background: #22c55e20; color: #22c55e; border-radius: 4px; display: inline-block; margin-bottom: 15px; font-size: 0.9rem; }
+        .error { background: #ef444420; color: #ef4444; }
+    </style>
+</head>
+<body>
+
+    <h1>RA Events Monitor (NL)</h1>
+    <div id="status" class="status">Data aan het laden...</div>
+
+    <div class="controls">
+        <label for="datePicker">Selecteer Datum:</label>
+        <input type="date" id="datePicker">
+    </div>
+
+    <div id="eventGrid" class="grid"></div>
+
+    <script>
+        const statusEl = document.getElementById('status');
+        const gridEl = document.getElementById('eventGrid');
+        const dateInput = document.getElementById('datePicker');
+
+        // Zet standaard de datum op vandaag (YYYY-MM-DD)
+        const today = new Date().toISOString().split('T')[0];
+        dateInput.value = today;
+
+        async function loadEvents(dateStr) {
+            gridEl.innerHTML = '';
+            statusEl.className = 'status';
+            statusEl.textContent = `Data laden voor ${dateStr}...`;
+
+            // Verwijst naar de map 'data/' in je repository
+            const filePath = `data/events_nl_${dateStr}.json`;
+
+            try {
+                const response = await fetch(filePath);
+                if (!response.ok) throw new Error('Geen data gevonden voor deze datum.');
+
+                const events = await response.json();
+                
+                if (events.length === 0) {
+                    statusEl.textContent = `Bestand gevonden, maar 0 evenementen aanwezig op ${dateStr}.`;
+                    return;
+                }
+
+                statusEl.textContent = `Succes: ${events.length} evenementen geladen voor ${dateStr}.`;
+
+                events.forEach(event => {
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    
+                    const flyer = event.flyerUrl || 'https://via.placeholder.com/300x160?text=Geen+Afbeelding';
+                    const venueName = event.venue?.name || 'Onbekende locatie';
+                    const artists = event.artists?.map(a => a.name).join(', ') || 'Geen line-up bekend';
+
+                    card.innerHTML = `
+                        <img src="${flyer}" alt="${event.title}" loading="lazy">
+                        <div class="card-content">
+                            <div>
+                                <h3>${event.title}</h3>
+                                <div class="meta venue">📍 ${venueName}</div>
+                                <div class="meta">⏰ ${event.startTime || ''} - ${event.endTime || ''}</div>
+                                <div class="meta">🎧 ${artists}</div>
+                            </div>
+                        </div>
+                    `;
+                    gridEl.appendChild(card);
+                });
+
+            } catch (err) {
+                statusEl.className = 'status error';
+                statusEl.textContent = `Fout: ${err.message} (Is de scraper al uitgevoerd vandaag?)`;
+            }
+        }
+
+        // Event listener voor datumwijziging
+        dateInput.addEventListener('change', (e) => loadEvents(e.target.value));
+
+        // Eerste load
+        loadEvents(today);
+    </script>
+</body>
+</html>
