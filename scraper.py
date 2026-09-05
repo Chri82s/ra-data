@@ -12,9 +12,10 @@ HEADERS = {
     "Origin": "https://ra.co"
 }
 
+# De werkende GraphQL query zoals RA deze intern gebruikt
 GRAPHQL_QUERY = """
-query GET_EVENT_LISTINGS($filters: FilterInputModel, $pageSize: Int, $page: Int) {
-  eventListings(filters: $filters, pageSize: $pageSize, page: $page) {
+query GET_DEFAULT_EVENTS_LISTING($indicesFilter: IndicesFilterInput, $pageSize: Int, $page: Int) {
+  eventListing(indicesFilter: $indicesFilter, pageSize: $pageSize, page: $page) {
     data {
       id
       title
@@ -45,9 +46,9 @@ def fetch_events():
     payload = {
         "query": GRAPHQL_QUERY,
         "variables": {
-            "filters": {
-                "areas": {"eq": 32},
-                "listingDate": {"gte": f"{today_date}T00:00:00.000Z", "lte": f"{today_date}T23:59:59.999Z"}
+            "indicesFilter": {
+                "area": 32,
+                "listingDate": f"{today_date}T00:00:00.000Z"
             },
             "pageSize": 100,
             "page": 1
@@ -59,8 +60,11 @@ def fetch_events():
     if response.status_code == 200:
         res_json = response.json()
         
-        # Ophalen van data uit de eventListings respons
-        events = res_json.get("data", {}).get("eventListings", {}).get("data", [])
+        if "errors" in res_json:
+            print("GraphQL Foutmeldingen:", res_json["errors"])
+            raise Exception("GraphQL query mislukt.")
+
+        events = res_json.get("data", {}).get("eventListing", {}).get("data", [])
         
         os.makedirs("data", exist_ok=True)
         output_file = f"data/events_nl_{today_date}.json"
@@ -70,8 +74,8 @@ def fetch_events():
             
         print(f"Succesvol {len(events)} evenementen opgeslagen in {output_file}")
     else:
-        print(f"Fout bij ophalen data: HTTP {response.status_code}")
-        raise Exception(f"HTTP verzoek mislukt")
+        print(f"HTTP Fout: {response.status_code}")
+        raise Exception(f"Request mislukt met code {response.status_code}")
 
 if __name__ == "__main__":
     fetch_events()
