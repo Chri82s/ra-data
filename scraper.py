@@ -1,7 +1,7 @@
 import json
 import os
 import requests
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 
 URL = "https://ra.co/graphql"
 
@@ -12,6 +12,7 @@ HEADERS = {
     "Origin": "https://ra.co"
 }
 
+# De werkende GraphQL query voor eventListings
 GRAPHQL_QUERY = """
 query GET_EVENT_LISTINGS($filters: FilterInputDtoInput, $pageSize: Int, $page: Int) {
   eventListings(filters: $filters, pageSize: $pageSize, page: $page) {
@@ -43,19 +44,17 @@ query GET_EVENT_LISTINGS($filters: FilterInputDtoInput, $pageSize: Int, $page: I
 """
 
 def fetch_events():
-    now = datetime.now(timezone.utc)
-    today_date = now.strftime('%Y-%m-%d')
-    tomorrow_date = (now + timedelta(days=1)).strftime('%Y-%m-%d')
+    today_date = datetime.now(timezone.utc).strftime('%Y-%m-%d')
     
-    # We vragen de events van vandaag op tot morgen
+    # Gebruik de datumindeling YYYY-MM-DD zoals RA het verwacht in de nieuwste frontend
     payload = {
         "query": GRAPHQL_QUERY,
         "variables": {
             "filters": {
                 "areas": {"eq": 32},
                 "listingDate": {
-                    "gte": f"{today_date}T00:00:00.000Z",
-                    "lte": f"{tomorrow_date}T23:59:59.999Z"
+                    "gte": today_date,
+                    "lte": today_date
                 }
             },
             "pageSize": 100,
@@ -64,21 +63,22 @@ def fetch_events():
     }
 
     response = requests.post(URL, json=payload, headers=HEADERS)
-    print(f"HTTP Status: {response.status_code}")
+    print(f"HTTP Status code: {response.status_code}")
     
     if response.status_code == 200:
         res_json = response.json()
         
         if "errors" in res_json:
-            print("GraphQL Fouten:", res_json["errors"])
+            print("GraphQL Fouten ontvangen van RA:", res_json["errors"])
             raise Exception("GraphQL query is afgewezen door RA.")
 
-        listing_data = res_json.get("data", {}).get("eventListings", {})
-        total_results = listing_data.get("totalResults", 0)
-        items = listing_data.get("data", [])
+        listing = res_json.get("data", {}).get("eventListings", {})
+        total = listing.get("totalResults", 0)
+        items = listing.get("data", [])
         
-        print(f"Totaal aantal gevonden resultaten volgens RA: {total_results}")
-        print(f"Aantal items in deze pagina: {len(items)}")
+        print(f"--- RA LOGS ---")
+        print(f"Totaal gevonden evenementen volgens RA: {total}")
+        print(f"Aantal items opgehaald in deze request: {len(items)}")
 
         events = []
         for item in items:
@@ -86,10 +86,6 @@ def fetch_events():
             if ev:
                 ev["flyerUrl"] = ev.get("flyerFront")
                 events.append(ev)
-        
-        # Als er geen events zijn gefilterd via item['event'], bewaar het originele item
-        if not events and items:
-            events = items
 
         os.makedirs("data", exist_ok=True)
         output_file = f"data/events_nl_{today_date}.json"
@@ -97,9 +93,10 @@ def fetch_events():
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(events, f, ensure_ascii=False, indent=2)
             
-        print(f"Succesvol {len(events)} evenementen opgeslagen in {output_file}")
+        print(f"Succesvol {len(events)} evenementen verwerkt in {output_file}")
     else:
         print(f"HTTP Fout code: {response.status_code}")
+        print("Response:", response.text[:300])
         raise Exception(f"HTTP request mislukt met code {response.status_code}")
 
 if __name__ == "__main__":
