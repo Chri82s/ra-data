@@ -12,7 +12,6 @@ HEADERS = {
     "Origin": "https://ra.co"
 }
 
-# De werkende GraphQL query zoals RA deze intern gebruikt
 GRAPHQL_QUERY = """
 query GET_DEFAULT_EVENTS_LISTING($indicesFilter: IndicesFilterInput, $pageSize: Int, $page: Int) {
   eventListing(indicesFilter: $indicesFilter, pageSize: $pageSize, page: $page) {
@@ -47,8 +46,7 @@ def fetch_events():
         "query": GRAPHQL_QUERY,
         "variables": {
             "indicesFilter": {
-                "area": 32,
-                "listingDate": f"{today_date}T00:00:00.000Z"
+                "area": 32
             },
             "pageSize": 100,
             "page": 1
@@ -61,8 +59,8 @@ def fetch_events():
         res_json = response.json()
         
         if "errors" in res_json:
-            print("GraphQL Foutmeldingen:", res_json["errors"])
-            raise Exception("GraphQL query mislukt.")
+            print("GraphQL Errors:", res_json["errors"])
+            raise Exception("GraphQL query is afgewezen door RA.")
 
         events = res_json.get("data", {}).get("eventListing", {}).get("data", [])
         
@@ -74,8 +72,8 @@ def fetch_events():
             
         print(f"Succesvol {len(events)} evenementen opgeslagen in {output_file}")
     else:
-        print(f"HTTP Fout: {response.status_code}")
-        raise Exception(f"Request mislukt met code {response.status_code}")
+        print(f"HTTP Fout code: {response.status_code}")
+        raise Exception(f"HTTP request mislukt met code {response.status_code}")
 
 if __name__ == "__main__":
     fetch_events()
