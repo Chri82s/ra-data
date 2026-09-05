@@ -4,16 +4,17 @@ import requests
 from datetime import datetime, timezone
 
 URL = "https://ra.co/graphql"
+
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
     "Content-Type": "application/json",
-    "Referer": "https://ra.co/events/nl/all"
+    "Referer": "https://ra.co/events/nl/all",
+    "Origin": "https://ra.co"
 }
 
-# Uitgebreide GraphQL query met expliciet datumfilter
 GRAPHQL_QUERY = """
-query GET_DEFAULT_EVENTS_LISTING($indicesFilter: IndicesFilterInput, $pageSize: Int, $page: Int) {
-  eventListing(indicesFilter: $indicesFilter, pageSize: $pageSize, page: $page) {
+query GET_EVENT_LISTINGS($filters: FilterInputModel, $pageSize: Int, $page: Int) {
+  eventListings(filters: $filters, pageSize: $pageSize, page: $page) {
     data {
       id
       title
@@ -39,16 +40,16 @@ query GET_DEFAULT_EVENTS_LISTING($indicesFilter: IndicesFilterInput, $pageSize: 
 """
 
 def fetch_events():
-    today_iso = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    today_date = datetime.now(timezone.utc).strftime('%Y-%m-%d')
     
     payload = {
         "query": GRAPHQL_QUERY,
         "variables": {
-            "indicesFilter": {
-                "area": 32,
-                "dateFrom": f"{today_iso}T00:00:00.000Z"
+            "filters": {
+                "areas": {"eq": 32},
+                "listingDate": {"gte": f"{today_date}T00:00:00.000Z", "lte": f"{today_date}T23:59:59.999Z"}
             },
-            "pageSize": 50,
+            "pageSize": 100,
             "page": 1
         }
     }
@@ -57,10 +58,12 @@ def fetch_events():
     
     if response.status_code == 200:
         res_json = response.json()
-        events = res_json.get("data", {}).get("eventListing", {}).get("data", [])
+        
+        # Ophalen van data uit de eventListings respons
+        events = res_json.get("data", {}).get("eventListings", {}).get("data", [])
         
         os.makedirs("data", exist_ok=True)
-        output_file = f"data/events_nl_{today_iso}.json"
+        output_file = f"data/events_nl_{today_date}.json"
         
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(events, f, ensure_ascii=False, indent=2)
@@ -68,6 +71,7 @@ def fetch_events():
         print(f"Succesvol {len(events)} evenementen opgeslagen in {output_file}")
     else:
         print(f"Fout bij ophalen data: HTTP {response.status_code}")
+        raise Exception(f"HTTP verzoek mislukt")
 
 if __name__ == "__main__":
     fetch_events()
