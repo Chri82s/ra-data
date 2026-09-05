@@ -12,27 +12,30 @@ HEADERS = {
     "Origin": "https://ra.co"
 }
 
-# Het nieuwe GraphQL-schema van Resident Advisor
+# Bijgewerkte query met FilterInputDtoInput en de geneste 'event' structuur
 GRAPHQL_QUERY = """
-query GET_EVENT_LISTINGS($filters: FilterInput, $pageSize: Int, $page: Int) {
+query GET_EVENT_LISTINGS($filters: FilterInputDtoInput, $pageSize: Int, $page: Int) {
   eventListings(filters: $filters, pageSize: $pageSize, page: $page) {
     data {
       id
-      title
-      date
-      startTime
-      endTime
-      contentUrl
-      flyerUrl
-      attending
-      venue {
+      event {
         id
-        name
+        title
+        date
+        startTime
+        endTime
         contentUrl
-      }
-      artists {
-        id
-        name
+        flyerUrl
+        attending
+        venue {
+          id
+          name
+          contentUrl
+        }
+        artists {
+          id
+          name
+        }
       }
     }
     totalResults
@@ -67,7 +70,10 @@ def fetch_events():
             print("GraphQL Fouten:", res_json["errors"])
             raise Exception("GraphQL query is afgewezen door RA.")
 
-        events = res_json.get("data", {}).get("eventListings", {}).get("data", [])
+        listings = res_json.get("data", {}).get("eventListings", {}).get("data", [])
+        
+        # Uitpakken van de geneste event-objects voor de front-end
+        events = [item["event"] for item in listings if item.get("event")]
         
         os.makedirs("data", exist_ok=True)
         output_file = f"data/events_nl_{today_date}.json"
