@@ -1,1 +1,3596 @@
-[]
+[
+  {
+    "id": "2506174",
+    "title": "Fat Tony, The Menendez Brothers & Friends",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2506174",
+    "flyerFront": null,
+    "attending": 4034,
+    "venue": {
+      "id": "141756",
+      "name": "E1",
+      "contentUrl": "/clubs/141756"
+    },
+    "artists": [
+      {
+        "id": "102803",
+        "name": "Fat Tony"
+      },
+      {
+        "id": "41612",
+        "name": "The Menendez Brothers"
+      },
+      {
+        "id": "128693",
+        "name": "Callyy"
+      },
+      {
+        "id": "123797",
+        "name": "Nadia Summer"
+      },
+      {
+        "id": "70779",
+        "name": "Will Watt"
+      },
+      {
+        "id": "176116",
+        "name": "Rhiavas"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2493681",
+    "title": "Brunch Electronik Barcelona - Solomun",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T13:00:00.000",
+    "endTime": "2026-09-05T22:00:00.000",
+    "contentUrl": "/events/2493681",
+    "flyerFront": null,
+    "attending": 3170,
+    "venue": {
+      "id": "64575",
+      "name": "Jardins de Joan Brossa",
+      "contentUrl": "/clubs/64575"
+    },
+    "artists": [
+      {
+        "id": "1665",
+        "name": "Solomun"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2418732",
+    "title": "fabric New York: Jeff Mills, Ben UFO, Craig Richards, Helena Hauff, x3butterly, Shvili",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T14:00:00.000",
+    "endTime": "2026-09-06T02:00:00.000",
+    "contentUrl": "/events/2418732",
+    "flyerFront": null,
+    "attending": 2374,
+    "venue": {
+      "id": "236062",
+      "name": "Under the K Bridge",
+      "contentUrl": "/clubs/236062"
+    },
+    "artists": [
+      {
+        "id": "188",
+        "name": "Jeff Mills"
+      },
+      {
+        "id": "16587",
+        "name": "Ben UFO"
+      },
+      {
+        "id": "90",
+        "name": "Craig Richards"
+      },
+      {
+        "id": "43227",
+        "name": "Helena Hauff"
+      },
+      {
+        "id": "108480",
+        "name": "x3butterfly"
+      },
+      {
+        "id": "104849",
+        "name": "Shvili"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2502892",
+    "title": "Stef Mendesidis live / Sera J / LYDO / The Carry Nation / SENERGI / Ian Crane",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:30:00.000",
+    "endTime": "2026-09-06T07:00:00.000",
+    "contentUrl": "/events/2502892",
+    "flyerFront": null,
+    "attending": 1894,
+    "venue": {
+      "id": "165976",
+      "name": "BASEMENT",
+      "contentUrl": "/clubs/165976"
+    },
+    "artists": [
+      {
+        "id": "44440",
+        "name": "Stef Mendesidis"
+      },
+      {
+        "id": "93812",
+        "name": "Sera J"
+      },
+      {
+        "id": "83860",
+        "name": "LYDO"
+      },
+      {
+        "id": "38462",
+        "name": "The Carry Nation"
+      },
+      {
+        "id": "106684",
+        "name": "SENERGI"
+      },
+      {
+        "id": "104757",
+        "name": "Ian Crane"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2420148",
+    "title": "AUDRA Festival 2026",
+    "date": "2026-09-03T00:00:00.000",
+    "startTime": "2026-09-03T19:00:00.000",
+    "endTime": "2026-09-06T12:00:00.000",
+    "contentUrl": "/events/2420148",
+    "flyerFront": null,
+    "attending": 1692,
+    "venue": {
+      "id": "210676",
+      "name": "TBA - Kaunas",
+      "contentUrl": null
+    },
+    "artists": [
+      {
+        "id": "169131",
+        "name": "eioo"
+      },
+      {
+        "id": "171630",
+        "name": "Fundamental"
+      },
+      {
+        "id": "108415",
+        "name": "Monika Seta"
+      },
+      {
+        "id": "63248",
+        "name": "Interiors"
+      },
+      {
+        "id": "70885",
+        "name": "Pletnev"
+      },
+      {
+        "id": "50325",
+        "name": "Tikiman"
+      },
+      {
+        "id": "42046",
+        "name": "Richard Akingbehin"
+      },
+      {
+        "id": "8452",
+        "name": "Chez Damier"
+      },
+      {
+        "id": "85915",
+        "name": "Chloé Caillet"
+      },
+      {
+        "id": "77341",
+        "name": "DJ JM"
+      },
+      {
+        "id": "181152",
+        "name": "Marija"
+      },
+      {
+        "id": "108509",
+        "name": "Mirror Slave"
+      },
+      {
+        "id": "116216",
+        "name": "Mario Moretti"
+      },
+      {
+        "id": "116769",
+        "name": "Valdagger"
+      },
+      {
+        "id": "17345",
+        "name": "Mantas T"
+      },
+      {
+        "id": "85688",
+        "name": "MCR-T"
+      },
+      {
+        "id": "51035",
+        "name": "Roe Deers"
+      },
+      {
+        "id": "67103",
+        "name": "SPFDJ"
+      },
+      {
+        "id": "62528",
+        "name": "Less Feeling"
+      },
+      {
+        "id": "62781",
+        "name": "Mountak"
+      },
+      {
+        "id": "99910",
+        "name": "Oyster"
+      },
+      {
+        "id": "167739",
+        "name": "une (1)"
+      },
+      {
+        "id": "124051",
+        "name": "EGZOTIKKA"
+      },
+      {
+        "id": "85287",
+        "name": "Hades"
+      },
+      {
+        "id": "58991",
+        "name": "Elboe"
+      },
+      {
+        "id": "180655",
+        "name": "Imbrasasm"
+      },
+      {
+        "id": "85986",
+        "name": "Kikelomo"
+      },
+      {
+        "id": "120028",
+        "name": "Youwin Trax"
+      },
+      {
+        "id": "162522",
+        "name": "Greta Margo"
+      },
+      {
+        "id": "15134",
+        "name": "Francesco Del Garda"
+      },
+      {
+        "id": "7181",
+        "name": "Saoirse"
+      },
+      {
+        "id": "164318",
+        "name": "Dresden"
+      },
+      {
+        "id": "572",
+        "name": "Ivan Smagghe"
+      },
+      {
+        "id": "51665",
+        "name": "Manfredas"
+      },
+      {
+        "id": "179855",
+        "name": "Aiste Regina"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2454554",
+    "title": "Don't F**k with Disco - Liverpool Street Party, NO HAT… NO ENTRY",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T14:00:00.000",
+    "endTime": "2026-09-05T22:00:00.000",
+    "contentUrl": "/events/2454554",
+    "flyerFront": null,
+    "attending": 1479,
+    "venue": {
+      "id": "187787",
+      "name": "Baltic Triangle",
+      "contentUrl": "/clubs/187787"
+    },
+    "artists": [
+      {
+        "id": "163908",
+        "name": "Don't F**k with Disco"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2499989",
+    "title": "Shock Value Nonstop: B0YG1RL, DILUVIA, DICAP, Juliana Huxtable, Sewa Choki, TYGAPAW, Via App",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T15:00:00.000",
+    "contentUrl": "/events/2499989",
+    "flyerFront": null,
+    "attending": 1475,
+    "venue": {
+      "id": "105873",
+      "name": "Nowadays",
+      "contentUrl": "/clubs/105873"
+    },
+    "artists": [
+      {
+        "id": "67358",
+        "name": "Juliana Huxtable"
+      },
+      {
+        "id": "152275",
+        "name": "DILUVIA"
+      },
+      {
+        "id": "60363",
+        "name": "Via App"
+      },
+      {
+        "id": "177836",
+        "name": "B0YG1RL"
+      },
+      {
+        "id": "114817",
+        "name": "DICAP"
+      },
+      {
+        "id": "60602",
+        "name": "TYGAPAW"
+      },
+      {
+        "id": "104150",
+        "name": "sydfalls"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2481730",
+    "title": "FOLD presents Bassiani (EXTENDED)",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:59:00.000",
+    "endTime": "2026-09-06T14:00:00.000",
+    "contentUrl": "/events/2481730",
+    "flyerFront": null,
+    "attending": 1463,
+    "venue": {
+      "id": "155399",
+      "name": "FOLD",
+      "contentUrl": "/clubs/155399"
+    },
+    "artists": [
+      {
+        "id": "57553",
+        "name": "Alba Heidari"
+      },
+      {
+        "id": "81072",
+        "name": "Anabel Arroyo"
+      },
+      {
+        "id": "48788",
+        "name": "HVL"
+      },
+      {
+        "id": "50760",
+        "name": "Haruka"
+      },
+      {
+        "id": "78585",
+        "name": "James Newmarch"
+      },
+      {
+        "id": "59319",
+        "name": "Voicedrone"
+      },
+      {
+        "id": "68908",
+        "name": "Ndrx"
+      },
+      {
+        "id": "45234",
+        "name": "Newa"
+      },
+      {
+        "id": "61413",
+        "name": "Zitto"
+      },
+      {
+        "id": "57895",
+        "name": "Zurkin"
+      },
+      {
+        "id": "144053",
+        "name": "bbecks"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2491562",
+    "title": "Origins x VU Free Rave: House Techno Trance",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T04:00:00.000",
+    "contentUrl": "/events/2491562",
+    "flyerFront": null,
+    "attending": 1211,
+    "venue": {
+      "id": "4567",
+      "name": "Village Underground",
+      "contentUrl": "/clubs/4567"
+    },
+    "artists": [],
+    "flyerUrl": null
+  },
+  {
+    "id": "2427523",
+    "title": "AGAPĒ FESTIVAL",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T12:00:00.000",
+    "endTime": "2026-09-07T06:00:00.000",
+    "contentUrl": "/events/2427523",
+    "flyerFront": null,
+    "attending": 1193,
+    "venue": {
+      "id": "49727",
+      "name": "Industry City",
+      "contentUrl": "/clubs/49727"
+    },
+    "artists": [
+      {
+        "id": "107527",
+        "name": "Adrian Mills"
+      },
+      {
+        "id": "101919",
+        "name": "Aiden (DE)"
+      },
+      {
+        "id": "99930",
+        "name": "Bad Boombox"
+      },
+      {
+        "id": "120055",
+        "name": "BIIANCO"
+      },
+      {
+        "id": "79410",
+        "name": "Clara Cuvé"
+      },
+      {
+        "id": "116003",
+        "name": "Cloudy"
+      },
+      {
+        "id": "114002",
+        "name": "Conrad Taylor"
+      },
+      {
+        "id": "103410",
+        "name": "Dalton Taylor"
+      },
+      {
+        "id": "70586",
+        "name": "David Löhlein"
+      },
+      {
+        "id": "124225",
+        "name": "Daybreak"
+      },
+      {
+        "id": "102864",
+        "name": "Diossa"
+      },
+      {
+        "id": "107592",
+        "name": "EMILIJA"
+      },
+      {
+        "id": "105525",
+        "name": "Fenrick"
+      },
+      {
+        "id": "112016",
+        "name": "Flash Gea"
+      },
+      {
+        "id": "131776",
+        "name": "fumi (DE)"
+      },
+      {
+        "id": "77302",
+        "name": "future.666"
+      },
+      {
+        "id": "133024",
+        "name": "hhunter"
+      },
+      {
+        "id": "96696",
+        "name": "jay york"
+      },
+      {
+        "id": "117226",
+        "name": "Junkfile"
+      },
+      {
+        "id": "156439",
+        "name": "KAYA (AU)"
+      },
+      {
+        "id": "39786",
+        "name": "Kobosil"
+      },
+      {
+        "id": "102090",
+        "name": "KYRUH"
+      },
+      {
+        "id": "108434",
+        "name": "Marco Neves"
+      },
+      {
+        "id": "106384",
+        "name": "Michelle Kay"
+      },
+      {
+        "id": "122197",
+        "name": "Mischluft"
+      },
+      {
+        "id": "106409",
+        "name": "O.B.I. (DE)"
+      },
+      {
+        "id": "127729",
+        "name": "Ollie Lishman"
+      },
+      {
+        "id": "68183",
+        "name": "Ramsey Neville"
+      },
+      {
+        "id": "92271",
+        "name": "Saint Velez"
+      },
+      {
+        "id": "141962",
+        "name": "Serafina"
+      },
+      {
+        "id": "52612",
+        "name": "Somewhen"
+      },
+      {
+        "id": "103700",
+        "name": "Supergloss"
+      },
+      {
+        "id": "124284",
+        "name": "TRIPTYKH"
+      },
+      {
+        "id": "166236",
+        "name": "Ueberrest"
+      },
+      {
+        "id": "23980",
+        "name": "Volvox"
+      },
+      {
+        "id": "137753",
+        "name": "WILDERÍCH"
+      },
+      {
+        "id": "87100",
+        "name": "WTCHCRFT"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2463898",
+    "title": "Phonox: Fumiya Tanaka (4 Hour Set)",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T16:00:00.000",
+    "endTime": "2026-09-05T22:00:00.000",
+    "contentUrl": "/events/2463898",
+    "flyerFront": null,
+    "attending": 1167,
+    "venue": {
+      "id": "106730",
+      "name": "Phonox",
+      "contentUrl": "/clubs/106730"
+    },
+    "artists": [
+      {
+        "id": "4016",
+        "name": "Fumiya Tanaka"
+      },
+      {
+        "id": "149866",
+        "name": "Teetee"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2470527",
+    "title": "A day with Crazy P (DJ Set) - [SOLD OUT]",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T14:00:00.000",
+    "endTime": "2026-09-05T23:00:00.000",
+    "contentUrl": "/events/2470527",
+    "flyerFront": null,
+    "attending": 1067,
+    "venue": {
+      "id": "213504",
+      "name": "LDN East",
+      "contentUrl": "/clubs/213504"
+    },
+    "artists": [
+      {
+        "id": "427",
+        "name": "Crazy P"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2442966",
+    "title": "TWENTY Years of INCOGNITO | SEP 4+5",
+    "date": "2026-09-04T00:00:00.000",
+    "startTime": "2026-09-04T22:00:00.000",
+    "endTime": "2026-09-06T05:00:00.000",
+    "contentUrl": "/events/2442966",
+    "flyerFront": null,
+    "attending": 924,
+    "venue": {
+      "id": "277350",
+      "name": "TBA - Los Angeles (Warehouse)",
+      "contentUrl": null
+    },
+    "artists": [
+      {
+        "id": "106697",
+        "name": "BAUGRUPPE90"
+      },
+      {
+        "id": "87795",
+        "name": "Coffintexts"
+      },
+      {
+        "id": "110459",
+        "name": "Trax Unit"
+      },
+      {
+        "id": "155862",
+        "name": "Newty"
+      },
+      {
+        "id": "380",
+        "name": "Roni Size"
+      },
+      {
+        "id": "84",
+        "name": "Dieselboy"
+      },
+      {
+        "id": "123134",
+        "name": "WHYS"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2518071",
+    "title": "VIBE CHECK: BLAKITO'S BIRTHDAY (OPEN FORMAT BANGERS)",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T02:00:00.000",
+    "contentUrl": "/events/2518071",
+    "flyerFront": null,
+    "attending": 863,
+    "venue": {
+      "id": "205236",
+      "name": "Big Pink",
+      "contentUrl": "/clubs/205236"
+    },
+    "artists": [],
+    "flyerUrl": null
+  },
+  {
+    "id": "2485809",
+    "title": "BASH",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T21:00:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2485809",
+    "flyerFront": null,
+    "attending": 862,
+    "venue": {
+      "id": "937",
+      "name": "Electrowerkz",
+      "contentUrl": "/clubs/937"
+    },
+    "artists": [
+      {
+        "id": "39234",
+        "name": "Milk & Sugar"
+      },
+      {
+        "id": "180362",
+        "name": "Chris de Buerre"
+      },
+      {
+        "id": "182934",
+        "name": "Dom de Sousa"
+      },
+      {
+        "id": "121889",
+        "name": "Ryussi"
+      },
+      {
+        "id": "148527",
+        "name": "S_STEELE"
+      },
+      {
+        "id": "91026",
+        "name": "Wildblood and Queenie"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2494376",
+    "title": "Komiks Rave ☆ Day & Night, 4 Stages (Skatepark Stvanice + ATG)",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T13:00:00.000",
+    "endTime": "2026-09-06T07:00:00.000",
+    "contentUrl": "/events/2494376",
+    "flyerFront": null,
+    "attending": 833,
+    "venue": {
+      "id": "81653",
+      "name": "Mystic Skatepark",
+      "contentUrl": "/clubs/81653"
+    },
+    "artists": [
+      {
+        "id": "77021",
+        "name": "Yanamaste"
+      },
+      {
+        "id": "105089",
+        "name": "mʊdʌki"
+      },
+      {
+        "id": "62424",
+        "name": "Riki Boro"
+      },
+      {
+        "id": "37072",
+        "name": "Fatty M"
+      },
+      {
+        "id": "139293",
+        "name": "S.Tian"
+      },
+      {
+        "id": "143714",
+        "name": "White Aura"
+      },
+      {
+        "id": "86706",
+        "name": "Inger Illel"
+      },
+      {
+        "id": "62535",
+        "name": "Polaris"
+      },
+      {
+        "id": "2480",
+        "name": "Schwa"
+      },
+      {
+        "id": "84150",
+        "name": "Teresi"
+      },
+      {
+        "id": "186113",
+        "name": "Veela"
+      },
+      {
+        "id": "107533",
+        "name": "DJames"
+      },
+      {
+        "id": "133103",
+        "name": "2NDRA"
+      },
+      {
+        "id": "139455",
+        "name": "Diva"
+      },
+      {
+        "id": "110583",
+        "name": "MLK:M"
+      },
+      {
+        "id": "117272",
+        "name": "Technadze"
+      },
+      {
+        "id": "78701",
+        "name": "Bailey Ibbs"
+      },
+      {
+        "id": "85298",
+        "name": "SJ Yellow"
+      },
+      {
+        "id": "141841",
+        "name": "Misha Jaru"
+      },
+      {
+        "id": "102854",
+        "name": "Zuzana Hakl"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2419568",
+    "title": "Spectrum Waves",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:59:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2419568",
+    "flyerFront": null,
+    "attending": 806,
+    "venue": {
+      "id": "8797",
+      "name": "Le Trabendo",
+      "contentUrl": "/clubs/8797"
+    },
+    "artists": [
+      {
+        "id": "87080",
+        "name": "Toscan Haas"
+      },
+      {
+        "id": "70336",
+        "name": "Rachel Noon"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2467136",
+    "title": "Brunch Electronik Madrid 05.09 - Joseph Capriati presents Metamorfosi",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T18:00:00.000",
+    "endTime": "2026-09-06T02:00:00.000",
+    "contentUrl": "/events/2467136",
+    "flyerFront": null,
+    "attending": 763,
+    "venue": {
+      "id": "50048",
+      "name": "Madrid Caja Mágica",
+      "contentUrl": "/clubs/50048"
+    },
+    "artists": [
+      {
+        "id": "4243",
+        "name": "Joseph Capriati"
+      },
+      {
+        "id": "43487",
+        "name": "Wade"
+      },
+      {
+        "id": "64176",
+        "name": "ALISHA"
+      },
+      {
+        "id": "47575",
+        "name": "Karretero"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2492393",
+    "title": "Certified Groovers: DJ Sneak [All night - Vinyl Set]",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T08:00:00.000",
+    "contentUrl": "/events/2492393",
+    "flyerFront": null,
+    "attending": 734,
+    "venue": {
+      "id": "194014",
+      "name": "TBA - Downtown Los Angeles",
+      "contentUrl": null
+    },
+    "artists": [
+      {
+        "id": "450",
+        "name": "DJ Sneak"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2471487",
+    "title": "fabric: Danilo Plessow (MCDE), Kenny Larkin, Seb Odyssey, Marlon Baleci, Layson, Phin ",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2471487",
+    "flyerFront": null,
+    "attending": 703,
+    "venue": {
+      "id": "237",
+      "name": "fabric",
+      "contentUrl": "/clubs/237"
+    },
+    "artists": [
+      {
+        "id": "2488",
+        "name": "Danilo Plessow"
+      },
+      {
+        "id": "1760",
+        "name": "Kenny Larkin"
+      },
+      {
+        "id": "126141",
+        "name": "Seb Odyssey"
+      },
+      {
+        "id": "131376",
+        "name": "Marlon Baleci"
+      },
+      {
+        "id": "128231",
+        "name": "Layson"
+      },
+      {
+        "id": "168459",
+        "name": "Phin (UK)"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2480527",
+    "title": "Cool Summer with Macca All Day Long - Outside at Venue MOT - SOLD OUT",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T15:00:00.000",
+    "endTime": "2026-09-05T22:00:00.000",
+    "contentUrl": "/events/2480527",
+    "flyerFront": null,
+    "attending": 656,
+    "venue": {
+      "id": "156290",
+      "name": "M.O.T",
+      "contentUrl": "/clubs/156290"
+    },
+    "artists": [
+      {
+        "id": "110851",
+        "name": "Macca."
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2401260",
+    "title": "Output pres. Apollonia + Sonja Moonear + Gabbs",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T16:00:00.000",
+    "endTime": "2026-09-06T03:00:00.000",
+    "contentUrl": "/events/2401260",
+    "flyerFront": null,
+    "attending": 639,
+    "venue": {
+      "id": "168852",
+      "name": "Seaseaclub Barcelona",
+      "contentUrl": "/clubs/168852"
+    },
+    "artists": [
+      {
+        "id": "38550",
+        "name": "Apollonia"
+      },
+      {
+        "id": "5957",
+        "name": "Sonja Moonear"
+      },
+      {
+        "id": "66679",
+        "name": "Gabbs"
+      },
+      {
+        "id": "925",
+        "name": "Tania Vulcano"
+      },
+      {
+        "id": "1485",
+        "name": "Terence :Terry:"
+      },
+      {
+        "id": "62497",
+        "name": "Giorgio Maulini"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2507822",
+    "title": "OK Williams & SHERELLE",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:59:00.000",
+    "endTime": "2026-09-06T07:00:00.000",
+    "contentUrl": "/events/2507822",
+    "flyerFront": null,
+    "attending": 596,
+    "venue": {
+      "id": "112509",
+      "name": "The White Hotel",
+      "contentUrl": "/clubs/112509"
+    },
+    "artists": [
+      {
+        "id": "87803",
+        "name": "OK Williams"
+      },
+      {
+        "id": "78696",
+        "name": "SHERELLE"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2404670",
+    "title": "The Soundgarden (Final 100 Tickets)",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T14:00:00.000",
+    "endTime": "2026-09-06T00:00:00.000",
+    "contentUrl": "/events/2404670",
+    "flyerFront": null,
+    "attending": 582,
+    "venue": {
+      "id": "259378",
+      "name": "UNLOCKED",
+      "contentUrl": "/clubs/259378"
+    },
+    "artists": [
+      {
+        "id": "58",
+        "name": "Nick Warren"
+      },
+      {
+        "id": "1662",
+        "name": "Eelke Kleijn"
+      },
+      {
+        "id": "139305",
+        "name": "Lavie Au Soleil"
+      },
+      {
+        "id": "105462",
+        "name": "Sinca"
+      },
+      {
+        "id": "100562",
+        "name": "Carina Lawrence"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2478592",
+    "title": "KOKO Electronic: Sébastien Léger & Roy Rosenfeld",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T05:00:00.000",
+    "contentUrl": "/events/2478592",
+    "flyerFront": null,
+    "attending": 597,
+    "venue": {
+      "id": "2038",
+      "name": "KOKO",
+      "contentUrl": "/clubs/2038"
+    },
+    "artists": [
+      {
+        "id": "924",
+        "name": "Sebastien Leger"
+      },
+      {
+        "id": "14547",
+        "name": "Roy Rosenfeld"
+      },
+      {
+        "id": "37366",
+        "name": "Dorian Craft"
+      },
+      {
+        "id": "38246",
+        "name": "Baron"
+      },
+      {
+        "id": "101254",
+        "name": "Asch Pintura"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2394150",
+    "title": "TUNNEL presents: DJ Gigola, Annie Lew, Etari & OZA",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2394150",
+    "flyerFront": null,
+    "attending": 587,
+    "venue": {
+      "id": "212314",
+      "name": "TBA",
+      "contentUrl": null
+    },
+    "artists": [
+      {
+        "id": "83185",
+        "name": "DJ Gigola"
+      },
+      {
+        "id": "109939",
+        "name": "Annie Lew"
+      },
+      {
+        "id": "99005",
+        "name": "Etari"
+      },
+      {
+        "id": "98273",
+        "name": "OZA"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2517947",
+    "title": "FORMAT: UNANNOUNCED",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T05:00:00.000",
+    "contentUrl": "/events/2517947",
+    "flyerFront": null,
+    "attending": 534,
+    "venue": {
+      "id": "300697",
+      "name": "TBA - Downtown Toronto ",
+      "contentUrl": null
+    },
+    "artists": [],
+    "flyerUrl": null
+  },
+  {
+    "id": "2507981",
+    "title": "Launch Hexagon",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2507981",
+    "flyerFront": null,
+    "attending": 554,
+    "venue": {
+      "id": "299500",
+      "name": "Hexagon Brussels",
+      "contentUrl": "/clubs/299500"
+    },
+    "artists": [
+      {
+        "id": "141347",
+        "name": "O'SIMMIE"
+      },
+      {
+        "id": "129224",
+        "name": "Erykah"
+      },
+      {
+        "id": "165704",
+        "name": "dirtydms"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2437431",
+    "title": "unceen with Paraçek, DJ Sonnenbrand, Charleen Herzig uvm. (Openair & Indoor)",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T14:00:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2437431",
+    "flyerFront": null,
+    "attending": 532,
+    "venue": {
+      "id": "191253",
+      "name": "Graf Karl",
+      "contentUrl": "/clubs/191253"
+    },
+    "artists": [
+      {
+        "id": "109616",
+        "name": "Paraçek"
+      },
+      {
+        "id": "127458",
+        "name": "DJ Sonnenbrand"
+      },
+      {
+        "id": "169875",
+        "name": "Charleen Herzig"
+      },
+      {
+        "id": "155793",
+        "name": "LAURIX (DE)"
+      },
+      {
+        "id": "175149",
+        "name": "Marie Mackerschreck"
+      },
+      {
+        "id": "92482",
+        "name": "JVN"
+      },
+      {
+        "id": "171220",
+        "name": "milène"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2477638",
+    "title": "Hot Since 82 with Danny Tenaglia, Juliet Mendoza, Kilopatrah Jones",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T15:00:00.000",
+    "endTime": "2026-09-06T05:00:00.000",
+    "contentUrl": "/events/2477638",
+    "flyerFront": null,
+    "attending": 522,
+    "venue": {
+      "id": "69401",
+      "name": "Knockdown Center",
+      "contentUrl": "/clubs/69401"
+    },
+    "artists": [
+      {
+        "id": "31155",
+        "name": "Hot Since 82"
+      },
+      {
+        "id": "24",
+        "name": "Danny Tenaglia"
+      },
+      {
+        "id": "77917",
+        "name": "Juliet Mendoza"
+      },
+      {
+        "id": "97712",
+        "name": "Kilopatrah Jones"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2392549",
+    "title": "Jackies Open Air Daytime w/ Gerd Janson (Open To Close)",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T19:00:00.000",
+    "endTime": "2026-09-05T23:59:00.000",
+    "contentUrl": "/events/2392549",
+    "flyerFront": null,
+    "attending": 520,
+    "venue": {
+      "id": "3760",
+      "name": "La Terrrazza",
+      "contentUrl": "/clubs/3760"
+    },
+    "artists": [
+      {
+        "id": "3760",
+        "name": "Gerd Janson"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2499605",
+    "title": "POLENTA",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:59:00.000",
+    "endTime": "2026-09-06T05:30:00.000",
+    "contentUrl": "/events/2499605",
+    "flyerFront": null,
+    "attending": 510,
+    "venue": {
+      "id": "207515",
+      "name": "La Paloma",
+      "contentUrl": "/clubs/207515"
+    },
+    "artists": [],
+    "flyerUrl": null
+  },
+  {
+    "id": "2514581",
+    "title": "ERREUR DE JEUNESSE X WITH US",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:59:00.000",
+    "endTime": "2026-09-06T07:00:00.000",
+    "contentUrl": "/events/2514581",
+    "flyerFront": null,
+    "attending": 487,
+    "venue": {
+      "id": "119672",
+      "name": "La Station - Gare des Mines",
+      "contentUrl": "/clubs/119672"
+    },
+    "artists": [
+      {
+        "id": "143735",
+        "name": "NEGRACONDA"
+      },
+      {
+        "id": "105548",
+        "name": "Albal"
+      },
+      {
+        "id": "106069",
+        "name": "Juguete"
+      },
+      {
+        "id": "173038",
+        "name": "Cici That Walk"
+      },
+      {
+        "id": "118358",
+        "name": "Julie Desire"
+      },
+      {
+        "id": "155647",
+        "name": "Thérapie de Club"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2484944",
+    "title": "Body & SOUL Catskills Open-Air",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T15:00:00.000",
+    "endTime": "2026-09-05T23:00:00.000",
+    "contentUrl": "/events/2484944",
+    "flyerFront": null,
+    "attending": 435,
+    "venue": {
+      "id": "170150",
+      "name": "Locust Grove",
+      "contentUrl": "/clubs/170150"
+    },
+    "artists": [
+      {
+        "id": "373",
+        "name": "Francois K"
+      },
+      {
+        "id": "2007",
+        "name": "Joe Claussell"
+      },
+      {
+        "id": "1732",
+        "name": "Danny Krivit"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2520591",
+    "title": "Super Selecta con Nevena Jeremić + Giuseppe Fava",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T19:00:00.000",
+    "endTime": "2026-09-06T00:30:00.000",
+    "contentUrl": "/events/2520591",
+    "flyerFront": null,
+    "attending": 460,
+    "venue": {
+      "id": "301013",
+      "name": "Chiostri a Carbonara",
+      "contentUrl": null
+    },
+    "artists": [
+      {
+        "id": "54626",
+        "name": "Giuseppe Fava"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2423932",
+    "title": "Summer Dance Party with Axel Boman, Kornel Kovacs, Nikki Nair",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:59:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2423932",
+    "flyerFront": null,
+    "attending": 401,
+    "venue": {
+      "id": "194014",
+      "name": "TBA - Downtown Los Angeles",
+      "contentUrl": null
+    },
+    "artists": [
+      {
+        "id": "10462",
+        "name": "Axel Boman"
+      },
+      {
+        "id": "1689",
+        "name": "Kornél Kovács"
+      },
+      {
+        "id": "74919",
+        "name": "Nikki Nair"
+      },
+      {
+        "id": "39065",
+        "name": "Masha Mar"
+      },
+      {
+        "id": "95066",
+        "name": "Tottie"
+      },
+      {
+        "id": "75561",
+        "name": "Stacy Christine"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2501190",
+    "title": "Yu Yu Cine Club: Goldie",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T05:00:00.000",
+    "contentUrl": "/events/2501190",
+    "flyerFront": null,
+    "attending": 394,
+    "venue": {
+      "id": "273862",
+      "name": "YuYu Cine Club",
+      "contentUrl": "/clubs/273862"
+    },
+    "artists": [
+      {
+        "id": "13",
+        "name": "Goldie"
+      },
+      {
+        "id": "132376",
+        "name": "Sirius Soundz"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2262952",
+    "title": "Eternal Sun 2026",
+    "date": "2026-09-04T00:00:00.000",
+    "startTime": "2026-09-04T22:00:00.000",
+    "endTime": "2026-09-07T06:00:00.000",
+    "contentUrl": "/events/2262952",
+    "flyerFront": null,
+    "attending": 391,
+    "venue": {
+      "id": "33158",
+      "name": "Fortuna Club",
+      "contentUrl": "/clubs/33158"
+    },
+    "artists": [
+      {
+        "id": "849",
+        "name": "Optimo (Espacio)"
+      },
+      {
+        "id": "20254",
+        "name": "Nosedrip"
+      },
+      {
+        "id": "78305",
+        "name": "Bufiman"
+      },
+      {
+        "id": "123682",
+        "name": "babyschön"
+      },
+      {
+        "id": "68459",
+        "name": "OKO DJ"
+      },
+      {
+        "id": "78765",
+        "name": "Amelia Holt"
+      },
+      {
+        "id": "84160",
+        "name": "REES"
+      },
+      {
+        "id": "91443",
+        "name": "Rosie Ama"
+      },
+      {
+        "id": "174203",
+        "name": "Hitomi (DE)"
+      },
+      {
+        "id": "122011",
+        "name": "Stella Z"
+      },
+      {
+        "id": "80300",
+        "name": "Bekha Mujiri"
+      },
+      {
+        "id": "120671",
+        "name": "Track Advisor"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2475341",
+    "title": "Palais: ISAbella (All Night Long)",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T20:00:00.000",
+    "endTime": "2026-09-06T05:00:00.000",
+    "contentUrl": "/events/2475341",
+    "flyerFront": null,
+    "attending": 378,
+    "venue": {
+      "id": "278318",
+      "name": "Palais",
+      "contentUrl": "/clubs/278318"
+    },
+    "artists": [
+      {
+        "id": "42221",
+        "name": "ISAbella"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2500683",
+    "title": "KINYXX pres: Mansion Fetish Edition",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:59:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2500683",
+    "flyerFront": null,
+    "attending": 378,
+    "venue": {
+      "id": "35934",
+      "name": "Atlantic Club",
+      "contentUrl": "/clubs/35934"
+    },
+    "artists": [
+      {
+        "id": "119458",
+        "name": "Cendales"
+      },
+      {
+        "id": "105424",
+        "name": "Judas"
+      },
+      {
+        "id": "129834",
+        "name": "PUSMUS"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2487177",
+    "title": "Ravefurrest Austin",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T20:00:00.000",
+    "endTime": "2026-09-06T02:00:00.000",
+    "contentUrl": "/events/2487177",
+    "flyerFront": null,
+    "attending": 362,
+    "venue": {
+      "id": "283113",
+      "name": "Brushy Street Commons",
+      "contentUrl": "/clubs/283113"
+    },
+    "artists": [
+      {
+        "id": "168713",
+        "name": "Demifiend"
+      },
+      {
+        "id": "152996",
+        "name": "kittenhouse"
+      },
+      {
+        "id": "145308",
+        "name": "CARTER LANDON"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2496546",
+    "title": "Ryan Elliott b2b Pancratio, Naomi",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2496546",
+    "flyerFront": null,
+    "attending": 363,
+    "venue": {
+      "id": "124413",
+      "name": "Shelter Amsterdam",
+      "contentUrl": "/clubs/124413"
+    },
+    "artists": [
+      {
+        "id": "136641",
+        "name": "Tommy Chikara"
+      },
+      {
+        "id": "110268",
+        "name": "Naomi (Berlin)"
+      },
+      {
+        "id": "736",
+        "name": "Ryan Elliott"
+      },
+      {
+        "id": "70230",
+        "name": "Pancratio"
+      },
+      {
+        "id": "181003",
+        "name": "Apontow Akyi"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2485756",
+    "title": "The Cause x Cortex presents: Loxy, DJ Flight, Nectax, CHEZA LUCINA",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T05:00:00.000",
+    "contentUrl": "/events/2485756",
+    "flyerFront": null,
+    "attending": 351,
+    "venue": {
+      "id": "198121",
+      "name": "The Cause",
+      "contentUrl": "/clubs/198121"
+    },
+    "artists": [
+      {
+        "id": "33550",
+        "name": "Loxy"
+      },
+      {
+        "id": "24030",
+        "name": "DJ Flight"
+      },
+      {
+        "id": "109077",
+        "name": "Nectax"
+      },
+      {
+        "id": "122728",
+        "name": "CHEZA LUCINA"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2471222",
+    "title": "cocoon - Mac Declos (House set), Marli",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T06:30:00.000",
+    "contentUrl": "/events/2471222",
+    "flyerFront": null,
+    "attending": 357,
+    "venue": {
+      "id": "248763",
+      "name": "essaim",
+      "contentUrl": "/clubs/248763"
+    },
+    "artists": [
+      {
+        "id": "103691",
+        "name": "Mac Declos"
+      },
+      {
+        "id": "93641",
+        "name": "Marli"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2509101",
+    "title": "Badger, Oh My Rosh, Tom Haigh & Ray Von",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2509101",
+    "flyerFront": null,
+    "attending": 343,
+    "venue": {
+      "id": "33592",
+      "name": "XOYO",
+      "contentUrl": "/clubs/33592"
+    },
+    "artists": [
+      {
+        "id": "136351",
+        "name": "Badger (UK)"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2390704",
+    "title": "Carl Cox - Lisbon 2026",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T12:00:00.000",
+    "endTime": "2026-09-06T00:00:00.000",
+    "contentUrl": "/events/2390704",
+    "flyerFront": null,
+    "attending": 336,
+    "venue": {
+      "id": "301902",
+      "name": "Parque Papa Francisco - Bobadela , Loures",
+      "contentUrl": null
+    },
+    "artists": [
+      {
+        "id": "25",
+        "name": "Carl Cox"
+      },
+      {
+        "id": "674",
+        "name": "Loco Dice"
+      },
+      {
+        "id": "60223",
+        "name": "Ben Sterling"
+      },
+      {
+        "id": "84715",
+        "name": "Mita Gami"
+      },
+      {
+        "id": "5",
+        "name": "John Digweed"
+      },
+      {
+        "id": "71885",
+        "name": "Tini Gessler"
+      },
+      {
+        "id": "628",
+        "name": "DJ Vibe"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2492304",
+    "title": "Mia Koden / Beatrice M / special guest {DAY}",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T17:00:00.000",
+    "endTime": "2026-09-05T23:00:00.000",
+    "contentUrl": "/events/2492304",
+    "flyerFront": null,
+    "attending": 322,
+    "venue": {
+      "id": "112509",
+      "name": "The White Hotel",
+      "contentUrl": "/clubs/112509"
+    },
+    "artists": [
+      {
+        "id": "119255",
+        "name": "Mia Koden"
+      },
+      {
+        "id": "136260",
+        "name": "Beatrice M."
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2482497",
+    "title": "Origins: Doudou MD [Slapfunk], Cap & Alexia Glensy [VBX]",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T17:00:00.000",
+    "endTime": "2026-09-06T03:00:00.000",
+    "contentUrl": "/events/2482497",
+    "flyerFront": null,
+    "attending": 323,
+    "venue": {
+      "id": "155586",
+      "name": "Night Tales",
+      "contentUrl": "/clubs/155586"
+    },
+    "artists": [
+      {
+        "id": "103146",
+        "name": "Alexia Glensy"
+      },
+      {
+        "id": "47387",
+        "name": "Cap"
+      },
+      {
+        "id": "103401",
+        "name": "Doudou MD"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2461989",
+    "title": "VANTEK X LIVID X N$G: Somewhen & H!DUDE",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2461989",
+    "flyerFront": null,
+    "attending": 325,
+    "venue": {
+      "id": "297907",
+      "name": "1201 Franklin St",
+      "contentUrl": "/clubs/297907"
+    },
+    "artists": [
+      {
+        "id": "52612",
+        "name": "Somewhen"
+      },
+      {
+        "id": "128337",
+        "name": "H! Dude"
+      },
+      {
+        "id": "158578",
+        "name": "ANGEL CANNON"
+      },
+      {
+        "id": "164931",
+        "name": "CES-AR33"
+      },
+      {
+        "id": "145705",
+        "name": "HEU (CA)"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2517809",
+    "title": "City Hall pres. METODI by AQV x PÜR society x ERASER",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:59:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2517809",
+    "flyerFront": null,
+    "attending": 317,
+    "venue": {
+      "id": "3759",
+      "name": "City Hall",
+      "contentUrl": "/clubs/3759"
+    },
+    "artists": [
+      {
+        "id": "23423",
+        "name": "METODI"
+      },
+      {
+        "id": "153512",
+        "name": "BRU ON"
+      },
+      {
+        "id": "164314",
+        "name": "Benja Millan"
+      },
+      {
+        "id": "171471",
+        "name": "Giuliano"
+      },
+      {
+        "id": "131283",
+        "name": "Fat-P"
+      },
+      {
+        "id": "173700",
+        "name": "Gastón quibel"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2480448",
+    "title": "Toy Tonics Daytime Rooftop Jam",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T14:00:00.000",
+    "endTime": "2026-09-05T22:00:00.000",
+    "contentUrl": "/events/2480448",
+    "flyerFront": null,
+    "attending": 319,
+    "venue": {
+      "id": "187673",
+      "name": "LoHi",
+      "contentUrl": "/clubs/187673"
+    },
+    "artists": [
+      {
+        "id": "82755",
+        "name": "Kapote"
+      },
+      {
+        "id": "144106",
+        "name": "ALOT"
+      },
+      {
+        "id": "105067",
+        "name": "Orson.NYC"
+      },
+      {
+        "id": "109287",
+        "name": "Laila Amira"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2487311",
+    "title": "Phonox: Wilfy D, malix, Goldie Quaker, Scotti Dee B2B Decimal",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T04:00:00.000",
+    "contentUrl": "/events/2487311",
+    "flyerFront": null,
+    "attending": 330,
+    "venue": {
+      "id": "106730",
+      "name": "Phonox",
+      "contentUrl": "/clubs/106730"
+    },
+    "artists": [
+      {
+        "id": "135976",
+        "name": "Wilfy D"
+      },
+      {
+        "id": "141464",
+        "name": "malix"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2431543",
+    "title": "Kirollus (All Day Long) - Beach Front Party",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T17:00:00.000",
+    "endTime": "2026-09-05T22:00:00.000",
+    "contentUrl": "/events/2431543",
+    "flyerFront": null,
+    "attending": 317,
+    "venue": {
+      "id": "2017",
+      "name": "Concorde 2",
+      "contentUrl": "/clubs/2017"
+    },
+    "artists": [
+      {
+        "id": "100341",
+        "name": "Kirollus"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2510923",
+    "title": "DickAppointment 7 Year Anniversary: Byrell The Great B2B BUTCHISH, BAE BAE B2B DJ Kita, + more",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T04:00:00.000",
+    "contentUrl": "/events/2510923",
+    "flyerFront": null,
+    "attending": 318,
+    "venue": {
+      "id": "195815",
+      "name": "Paragon",
+      "contentUrl": "/clubs/195815"
+    },
+    "artists": [
+      {
+        "id": "102924",
+        "name": "Byrell The Great"
+      },
+      {
+        "id": "96367",
+        "name": "BAE BAE"
+      },
+      {
+        "id": "110328",
+        "name": "THABLACKGOD"
+      },
+      {
+        "id": "111100",
+        "name": "IDKRYAN"
+      },
+      {
+        "id": "106229",
+        "name": "DJ Kita"
+      },
+      {
+        "id": "104637",
+        "name": "Kenni Javon"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2518554",
+    "title": "OUTRO Official Afterparty",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2518554",
+    "flyerFront": null,
+    "attending": 336,
+    "venue": {
+      "id": "26873",
+      "name": "INPUT High Fidelity Dance Club",
+      "contentUrl": "/clubs/26873"
+    },
+    "artists": [],
+    "flyerUrl": null
+  },
+  {
+    "id": "2418516",
+    "title": "Tengu presents: Sunil Sharpe All Night Long",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T03:00:00.000",
+    "contentUrl": "/events/2418516",
+    "flyerFront": null,
+    "attending": 315,
+    "venue": {
+      "id": "116173",
+      "name": "Yamamori Tengu",
+      "contentUrl": "/clubs/116173"
+    },
+    "artists": [
+      {
+        "id": "22759",
+        "name": "Sunil Sharpe"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2464416",
+    "title": "Symfora",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2464416",
+    "flyerFront": null,
+    "attending": 300,
+    "venue": {
+      "id": "168878",
+      "name": "Lofi",
+      "contentUrl": "/clubs/168878"
+    },
+    "artists": [
+      {
+        "id": "179646",
+        "name": "LYLO (NL)"
+      },
+      {
+        "id": "42186",
+        "name": "Philou Louzolo"
+      },
+      {
+        "id": "35914",
+        "name": "Trikk"
+      },
+      {
+        "id": "67631",
+        "name": "Yulia Niko"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2527176",
+    "title": "Night Tales Free Party: House & Tech House ",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T17:00:00.000",
+    "endTime": "2026-09-06T03:00:00.000",
+    "contentUrl": "/events/2527176",
+    "flyerFront": null,
+    "attending": 303,
+    "venue": {
+      "id": "155586",
+      "name": "Night Tales",
+      "contentUrl": "/clubs/155586"
+    },
+    "artists": [],
+    "flyerUrl": null
+  },
+  {
+    "id": "2481702",
+    "title": "NT's Loft: Todd Edwards Weekender with Monki & Majestic ",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T17:00:00.000",
+    "endTime": "2026-09-06T02:30:00.000",
+    "contentUrl": "/events/2481702",
+    "flyerFront": null,
+    "attending": 299,
+    "venue": {
+      "id": "115524",
+      "name": "Night Tales Loft",
+      "contentUrl": "/clubs/115524"
+    },
+    "artists": [
+      {
+        "id": "3878",
+        "name": "Todd Edwards"
+      },
+      {
+        "id": "50310",
+        "name": "Monki"
+      },
+      {
+        "id": "64922",
+        "name": "Majestic"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2501554",
+    "title": "PMOS Invites: BOBBY & Christian AB",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T05:00:00.000",
+    "contentUrl": "/events/2501554",
+    "flyerFront": null,
+    "attending": 303,
+    "venue": {
+      "id": "297988",
+      "name": "Kalhesa",
+      "contentUrl": "/clubs/297988"
+    },
+    "artists": [
+      {
+        "id": "85889",
+        "name": "Bobby."
+      },
+      {
+        "id": "27916",
+        "name": "Christian AB"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2487414",
+    "title": "SlapFunk Liverpool Day / Night",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T16:00:00.000",
+    "endTime": "2026-09-06T04:00:00.000",
+    "contentUrl": "/events/2487414",
+    "flyerFront": null,
+    "attending": 284,
+    "venue": {
+      "id": "301511",
+      "name": "St Brides Church",
+      "contentUrl": null
+    },
+    "artists": [
+      {
+        "id": "109701",
+        "name": "Aerofunk"
+      },
+      {
+        "id": "985",
+        "name": "D'Julz"
+      },
+      {
+        "id": "119189",
+        "name": "Elleinad"
+      },
+      {
+        "id": "23021",
+        "name": "Harry McCanna"
+      },
+      {
+        "id": "25203",
+        "name": "Samuel Deep"
+      },
+      {
+        "id": "20572",
+        "name": "Willow"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2493087",
+    "title": "Eduardo de la Calle, Bloody Mary, Grace Dahl",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T05:00:00.000",
+    "contentUrl": "/events/2493087",
+    "flyerFront": null,
+    "attending": 257,
+    "venue": {
+      "id": "256148",
+      "name": "Signal",
+      "contentUrl": "/clubs/256148"
+    },
+    "artists": [
+      {
+        "id": "7556",
+        "name": "Eduardo de la Calle"
+      },
+      {
+        "id": "3500",
+        "name": "Bloody Mary"
+      },
+      {
+        "id": "64279",
+        "name": "Grace Dahl"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2475430",
+    "title": "Laster Club presents THE OPENING with MARRØN, DJ TOOL & Liszt",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2475430",
+    "flyerFront": null,
+    "attending": 269,
+    "venue": {
+      "id": "190408",
+      "name": "The Bassement",
+      "contentUrl": "/clubs/190408"
+    },
+    "artists": [
+      {
+        "id": "70288",
+        "name": "MARRØN"
+      },
+      {
+        "id": "105286",
+        "name": "DJ TOOL"
+      },
+      {
+        "id": "149543",
+        "name": "Liszt"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2404245",
+    "title": "Pulse: Surgeon",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T03:00:00.000",
+    "contentUrl": "/events/2404245",
+    "flyerFront": null,
+    "attending": 239,
+    "venue": {
+      "id": "11661",
+      "name": "The Bongo Club",
+      "contentUrl": "/clubs/11661"
+    },
+    "artists": [
+      {
+        "id": "624",
+        "name": "Surgeon"
+      },
+      {
+        "id": "86928",
+        "name": "Darrell Pulse"
+      },
+      {
+        "id": "30304",
+        "name": "Sean Laird"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2490772",
+    "title": "JLZ, Vhoor, Mu540, RaMeMes (Weird Baile) - EartH Hackney",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T05:00:00.000",
+    "contentUrl": "/events/2490772",
+    "flyerFront": null,
+    "attending": 237,
+    "venue": {
+      "id": "150325",
+      "name": "EartH",
+      "contentUrl": "/clubs/150325"
+    },
+    "artists": [
+      {
+        "id": "162899",
+        "name": "JLZ (BRA)"
+      },
+      {
+        "id": "106247",
+        "name": "VHOOR"
+      },
+      {
+        "id": "106389",
+        "name": "Mu540"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2436579",
+    "title": "Solid Grooves New York",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T15:00:00.000",
+    "endTime": "2026-09-05T22:00:00.000",
+    "contentUrl": "/events/2436579",
+    "flyerFront": null,
+    "attending": 232,
+    "venue": {
+      "id": "285319",
+      "name": "Fulton Fish Market - Hunts Point",
+      "contentUrl": "/clubs/285319"
+    },
+    "artists": [
+      {
+        "id": "42653",
+        "name": "Dennis Cruz"
+      },
+      {
+        "id": "38230",
+        "name": "Michael Bibi"
+      },
+      {
+        "id": "45775",
+        "name": "PAWSA"
+      },
+      {
+        "id": "21756",
+        "name": "Silvie Loto"
+      },
+      {
+        "id": "582",
+        "name": "Tiga"
+      },
+      {
+        "id": "172916",
+        "name": "CatLadyHi"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2500036",
+    "title": "SanDia: Season Finale with Bendito, Donis, Jeremy Giros, Yvonne Turner",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T14:00:00.000",
+    "endTime": "2026-09-05T20:00:00.000",
+    "contentUrl": "/events/2500036",
+    "flyerFront": null,
+    "attending": 233,
+    "venue": {
+      "id": "105873",
+      "name": "Nowadays",
+      "contentUrl": "/clubs/105873"
+    },
+    "artists": [
+      {
+        "id": "93753",
+        "name": "Bendito"
+      },
+      {
+        "id": "92088",
+        "name": "Donis"
+      },
+      {
+        "id": "136501",
+        "name": "Jeremy Giros"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2500079",
+    "title": "BLITZ IN THE YARD - FREE PARTY - DAY & NIGHT",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T18:00:00.000",
+    "endTime": "2026-09-06T04:00:00.000",
+    "contentUrl": "/events/2500079",
+    "flyerFront": null,
+    "attending": 238,
+    "venue": {
+      "id": "873",
+      "name": "World Headquarters",
+      "contentUrl": "/clubs/873"
+    },
+    "artists": [],
+    "flyerUrl": null
+  },
+  {
+    "id": "2501184",
+    "title": "Dimi Angélis, Lindsey Herbert / The AM/AMX, STE-VÍ / Justin Strauss",
+    "date": "2026-09-04T00:00:00.000",
+    "startTime": "2026-09-04T23:00:00.000",
+    "endTime": "2026-09-08T04:00:00.000",
+    "contentUrl": "/events/2501184",
+    "flyerFront": null,
+    "attending": 222,
+    "venue": {
+      "id": "164270",
+      "name": "public records",
+      "contentUrl": "/clubs/164270"
+    },
+    "artists": [
+      {
+        "id": "5001",
+        "name": "Dimi Angelis"
+      },
+      {
+        "id": "58966",
+        "name": "Lindsey Herbert"
+      },
+      {
+        "id": "92404",
+        "name": "The AM/AMX"
+      },
+      {
+        "id": "118049",
+        "name": "STE-VÍ"
+      },
+      {
+        "id": "41119",
+        "name": "Justin Strauss"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2525344",
+    "title": "feedbk - soft opening weekend with Andrew James Gustav & Burchan",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T04:00:00.000",
+    "contentUrl": "/events/2525344",
+    "flyerFront": null,
+    "attending": 223,
+    "venue": {
+      "id": "301444",
+      "name": "feedbk",
+      "contentUrl": "/clubs/301444"
+    },
+    "artists": [
+      {
+        "id": "48922",
+        "name": "Andrew James Gustav"
+      },
+      {
+        "id": "20640",
+        "name": "Burchan Acar"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2505323",
+    "title": "Melting Pot Daytime Disco ● The Berkeley Suite ● Saturday 5th September ● 5-10pm ●",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T17:00:00.000",
+    "endTime": "2026-09-05T22:00:00.000",
+    "contentUrl": "/events/2505323",
+    "flyerFront": null,
+    "attending": 220,
+    "venue": {
+      "id": "53708",
+      "name": "The Berkeley Suite",
+      "contentUrl": "/clubs/53708"
+    },
+    "artists": [],
+    "flyerUrl": null
+  },
+  {
+    "id": "2520736",
+    "title": "Sem Jacobs (Exclusive Extended Set) + Kassko",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T21:00:00.000",
+    "endTime": "2026-09-06T03:00:00.000",
+    "contentUrl": "/events/2520736",
+    "flyerFront": null,
+    "attending": 222,
+    "venue": {
+      "id": "200290",
+      "name": "Yellow House",
+      "contentUrl": "/clubs/200290"
+    },
+    "artists": [
+      {
+        "id": "112276",
+        "name": "Sem Jacobs"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2494131",
+    "title": "London Love Letter by Night with Danielle b2b Amaliah + AmeliaBC feat. Kurtis Lincoln ",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T04:00:00.000",
+    "contentUrl": "/events/2494131",
+    "flyerFront": null,
+    "attending": 216,
+    "venue": {
+      "id": "31270",
+      "name": "Vittoria Wharf Studio",
+      "contentUrl": "/clubs/31270"
+    },
+    "artists": [
+      {
+        "id": "186012",
+        "name": "AmeliaBC"
+      },
+      {
+        "id": "81806",
+        "name": "Danielle"
+      },
+      {
+        "id": "101213",
+        "name": "Amaliah"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2517130",
+    "title": "Process Club Night - Powder, Nico Tobón",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T04:00:00.000",
+    "contentUrl": "/events/2517130",
+    "flyerFront": null,
+    "attending": 211,
+    "venue": {
+      "id": "236788",
+      "name": "Process PDX",
+      "contentUrl": "/clubs/236788"
+    },
+    "artists": [
+      {
+        "id": "60476",
+        "name": "Powder"
+      },
+      {
+        "id": "105804",
+        "name": "Nico Tobón"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2522212",
+    "title": "BAILE WORLD Labor Day Party",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T16:00:00.000",
+    "endTime": "2026-09-05T22:00:00.000",
+    "contentUrl": "/events/2522212",
+    "flyerFront": null,
+    "attending": 207,
+    "venue": {
+      "id": "172765",
+      "name": "High Tide",
+      "contentUrl": "/clubs/172765"
+    },
+    "artists": [
+      {
+        "id": "67043",
+        "name": "Pressure Point"
+      },
+      {
+        "id": "114750",
+        "name": "Cquestt"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2520230",
+    "title": "404: BLURREDMOVEMENT",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T04:00:00.000",
+    "contentUrl": "/events/2520230",
+    "flyerFront": null,
+    "attending": 196,
+    "venue": {
+      "id": "258567",
+      "name": "821 Runnymede Rd",
+      "contentUrl": "/clubs/258567"
+    },
+    "artists": [
+      {
+        "id": "165732",
+        "name": "KILL 9 1"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2507007",
+    "title": "RAZZCLUBS: Héctor Oaks + NiZ + TBA",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:59:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2507007",
+    "flyerFront": null,
+    "attending": 198,
+    "venue": {
+      "id": "911",
+      "name": "Razzmatazz",
+      "contentUrl": "/clubs/911"
+    },
+    "artists": [
+      {
+        "id": "29027",
+        "name": "Héctor Oaks"
+      },
+      {
+        "id": "131659",
+        "name": "Niz (IE)"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2517873",
+    "title": "Global Swing presents: Magic",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:59:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2517873",
+    "flyerFront": null,
+    "attending": 205,
+    "venue": {
+      "id": "3760",
+      "name": "La Terrrazza",
+      "contentUrl": "/clubs/3760"
+    },
+    "artists": [
+      {
+        "id": "44698",
+        "name": "Garrett David"
+      },
+      {
+        "id": "66529",
+        "name": "Sweely"
+      },
+      {
+        "id": "18864",
+        "name": "Lis Sarroca"
+      },
+      {
+        "id": "20771",
+        "name": "Furz"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2462170",
+    "title": "unceen pres. WAVES AFTERSHOW w/ DICE, Trancestrudel, Katy Rough, SPEEDBOYS LIVE & Nordcorreia",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T08:00:00.000",
+    "contentUrl": "/events/2462170",
+    "flyerFront": null,
+    "attending": 193,
+    "venue": {
+      "id": "20053",
+      "name": "Indiego Glocksee",
+      "contentUrl": "/clubs/20053"
+    },
+    "artists": [
+      {
+        "id": "161001",
+        "name": "DICE"
+      },
+      {
+        "id": "149797",
+        "name": "Katy Rough"
+      },
+      {
+        "id": "136200",
+        "name": "Trancestrudel"
+      },
+      {
+        "id": "136205",
+        "name": "SPEEDBOYS"
+      },
+      {
+        "id": "148233",
+        "name": "nordcorreia.mp3"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2490230",
+    "title": "EXIT 3→RD BIRTHDAY - Saturday [Night 2]",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T20:00:00.000",
+    "endTime": "2026-09-06T03:00:00.000",
+    "contentUrl": "/events/2490230",
+    "flyerFront": null,
+    "attending": 187,
+    "venue": {
+      "id": "222099",
+      "name": "EXIT Glasgow",
+      "contentUrl": "/clubs/222099"
+    },
+    "artists": [
+      {
+        "id": "80148",
+        "name": "Hiro Kone"
+      },
+      {
+        "id": "139416",
+        "name": "HUNTRESS"
+      },
+      {
+        "id": "86321",
+        "name": "Ribeka"
+      },
+      {
+        "id": "129555",
+        "name": "RS Tangent"
+      },
+      {
+        "id": "159297",
+        "name": "Saeko Killy"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2506656",
+    "title": "BASTET presents: Black Rave Culture, DJ Love || Ohlei, DJ Shango",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T03:30:00.000",
+    "contentUrl": "/events/2506656",
+    "flyerFront": null,
+    "attending": 178,
+    "venue": {
+      "id": "290773",
+      "name": "Bastet",
+      "contentUrl": "/clubs/290773"
+    },
+    "artists": [
+      {
+        "id": "102318",
+        "name": "Black Rave Culture"
+      },
+      {
+        "id": "103753",
+        "name": "Nativesun"
+      },
+      {
+        "id": "100599",
+        "name": "James Bangura"
+      },
+      {
+        "id": "101840",
+        "name": "Amal"
+      },
+      {
+        "id": "134160",
+        "name": "Ohlei"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2512278",
+    "title": "Palermo Sound: Ritmografica Closing Party with Special Guest",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T18:00:00.000",
+    "endTime": "2026-09-05T23:00:00.000",
+    "contentUrl": "/events/2512278",
+    "flyerFront": null,
+    "attending": 174,
+    "venue": {
+      "id": "299985",
+      "name": "Officine Bellotti",
+      "contentUrl": "/clubs/299985"
+    },
+    "artists": [],
+    "flyerUrl": null
+  },
+  {
+    "id": "2461514",
+    "title": "The Disco Express: London w/ Barbara Tucker, COEO, DJ Spen & more",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:30:00.000",
+    "endTime": "2026-09-06T05:00:00.000",
+    "contentUrl": "/events/2461514",
+    "flyerFront": null,
+    "attending": 180,
+    "venue": {
+      "id": "725",
+      "name": "Ministry Of Sound",
+      "contentUrl": "/clubs/725"
+    },
+    "artists": [
+      {
+        "id": "39771",
+        "name": "Barbara Tucker"
+      },
+      {
+        "id": "35708",
+        "name": "COEO"
+      },
+      {
+        "id": "2628",
+        "name": "DJ Spen"
+      },
+      {
+        "id": "166223",
+        "name": "The Wild Violets"
+      },
+      {
+        "id": "113451",
+        "name": "Magnolia_"
+      },
+      {
+        "id": "69989",
+        "name": "Bustin' Loose"
+      },
+      {
+        "id": "131347",
+        "name": "Caio Cenci"
+      },
+      {
+        "id": "144164",
+        "name": "Crystal Touch"
+      },
+      {
+        "id": "132920",
+        "name": "Poppi"
+      },
+      {
+        "id": "145543",
+        "name": "Old as Funk"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2520921",
+    "title": "Sub Club Roof Party #12 with Harri, Domenic Cappello, Stevie Cox + Telford",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T17:30:00.000",
+    "endTime": "2026-09-05T22:30:00.000",
+    "contentUrl": "/events/2520921",
+    "flyerFront": null,
+    "attending": 175,
+    "venue": {
+      "id": "211273",
+      "name": "TBA",
+      "contentUrl": null
+    },
+    "artists": [
+      {
+        "id": "1866",
+        "name": "DJ Harri"
+      },
+      {
+        "id": "5125",
+        "name": "Domenic Cappello"
+      },
+      {
+        "id": "82324",
+        "name": "Stevie Cox"
+      },
+      {
+        "id": "3592",
+        "name": "Telford"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2512686",
+    "title": "Jazz on Wick 2026: D Double E, BBE, Esa Williams, The Silhouettes Project, Steven Julien",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T12:00:00.000",
+    "endTime": "2026-09-05T22:30:00.000",
+    "contentUrl": "/events/2512686",
+    "flyerFront": null,
+    "attending": 191,
+    "venue": {
+      "id": "237865",
+      "name": "Hackney Bridge",
+      "contentUrl": "/clubs/237865"
+    },
+    "artists": [
+      {
+        "id": "65922",
+        "name": "D Double E"
+      },
+      {
+        "id": "126115",
+        "name": "Madeleine"
+      },
+      {
+        "id": "123118",
+        "name": "RuDi"
+      },
+      {
+        "id": "50551",
+        "name": "Neue Grafik"
+      },
+      {
+        "id": "134927",
+        "name": "Steven Julien"
+      },
+      {
+        "id": "155902",
+        "name": "Maria Hanlon"
+      },
+      {
+        "id": "141768",
+        "name": "Raidaa"
+      },
+      {
+        "id": "89683",
+        "name": "SANOY"
+      },
+      {
+        "id": "94401",
+        "name": "Selassie TBC"
+      },
+      {
+        "id": "167804",
+        "name": "Steeziskey"
+      },
+      {
+        "id": "83840",
+        "name": "James Massiah"
+      },
+      {
+        "id": "138290",
+        "name": "blissy e"
+      },
+      {
+        "id": "150200",
+        "name": "Chedda Bred"
+      },
+      {
+        "id": "89828",
+        "name": "Entek"
+      },
+      {
+        "id": "122728",
+        "name": "CHEZA LUCINA"
+      },
+      {
+        "id": "120800",
+        "name": "Chima Isaaro"
+      },
+      {
+        "id": "90429",
+        "name": "MarshmeLLo"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2498777",
+    "title": "Magnetic People Day Time at SunSeaBar - FREE OPEN AIR BEACH PARTY",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T16:00:00.000",
+    "endTime": "2026-09-05T23:59:00.000",
+    "contentUrl": "/events/2498777",
+    "flyerFront": null,
+    "attending": 179,
+    "venue": {
+      "id": "289040",
+      "name": "Sunseabar Beach Club",
+      "contentUrl": "/clubs/289040"
+    },
+    "artists": [
+      {
+        "id": "34868",
+        "name": "CAAL"
+      },
+      {
+        "id": "138727",
+        "name": "BizZa"
+      },
+      {
+        "id": "48619",
+        "name": "De La Swing"
+      },
+      {
+        "id": "183062",
+        "name": "Dellavega"
+      },
+      {
+        "id": "14793",
+        "name": "LondonGround"
+      },
+      {
+        "id": "54353",
+        "name": "Pau Guilera"
+      },
+      {
+        "id": "142112",
+        "name": "Ssero"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2468377",
+    "title": "BRAIN BATH with Pilgrims Of The Mind & Kelbey Saruk",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T21:00:00.000",
+    "endTime": "2026-09-06T04:00:00.000",
+    "contentUrl": "/events/2468377",
+    "flyerFront": null,
+    "attending": 164,
+    "venue": {
+      "id": "260647",
+      "name": "TBA",
+      "contentUrl": null
+    },
+    "artists": [],
+    "flyerUrl": null
+  },
+  {
+    "id": "2526596",
+    "title": "ReSolute Labor Day 2026",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-07T04:00:00.000",
+    "contentUrl": "/events/2526596",
+    "flyerFront": null,
+    "attending": 158,
+    "venue": {
+      "id": "137550",
+      "name": "H0L0",
+      "contentUrl": "/clubs/137550"
+    },
+    "artists": [
+      {
+        "id": "106489",
+        "name": "Armii1n"
+      },
+      {
+        "id": "102473",
+        "name": "Dylan Payne"
+      },
+      {
+        "id": "92723",
+        "name": "J. Richards"
+      },
+      {
+        "id": "80499",
+        "name": "Kurilo"
+      },
+      {
+        "id": "77417",
+        "name": "Max Sprauer"
+      },
+      {
+        "id": "91967",
+        "name": "Monile"
+      },
+      {
+        "id": "88091",
+        "name": "Ryan King"
+      },
+      {
+        "id": "104849",
+        "name": "Shvili"
+      },
+      {
+        "id": "161840",
+        "name": "Zayd"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2468889",
+    "title": "77: Darius Syrossian",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T03:00:00.000",
+    "contentUrl": "/events/2468889",
+    "flyerFront": null,
+    "attending": 143,
+    "venue": {
+      "id": "273460",
+      "name": "77",
+      "contentUrl": "/clubs/273460"
+    },
+    "artists": [
+      {
+        "id": "4144",
+        "name": "Darius Syrossian"
+      },
+      {
+        "id": "119770",
+        "name": "Lola So"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2492517",
+    "title": "2HARD4U (HARDTECHNO)",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2492517",
+    "flyerFront": null,
+    "attending": 146,
+    "venue": {
+      "id": "7522",
+      "name": "Baalsaal",
+      "contentUrl": "/clubs/7522"
+    },
+    "artists": [
+      {
+        "id": "139711",
+        "name": "TZO (1)"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2498015",
+    "title": "ODDITY PROJECT: ROOFTOP DAY PARTY",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T14:00:00.000",
+    "endTime": "2026-09-05T21:00:00.000",
+    "contentUrl": "/events/2498015",
+    "flyerFront": null,
+    "attending": 140,
+    "venue": {
+      "id": "299156",
+      "name": "Fable Bar & Grill",
+      "contentUrl": null
+    },
+    "artists": [
+      {
+        "id": "128125",
+        "name": "Kardano"
+      },
+      {
+        "id": "183949",
+        "name": "Marcs"
+      },
+      {
+        "id": "186872",
+        "name": "Drameto"
+      },
+      {
+        "id": "187662",
+        "name": "SOOPIE"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2488561",
+    "title": "WILD Festival-Final Chapter x FTLOM",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T14:00:00.000",
+    "endTime": "2026-09-06T04:00:00.000",
+    "contentUrl": "/events/2488561",
+    "flyerFront": null,
+    "attending": 129,
+    "venue": {
+      "id": "201287",
+      "name": "The Cross",
+      "contentUrl": "/clubs/201287"
+    },
+    "artists": [
+      {
+        "id": "132472",
+        "name": "Bibiminor"
+      },
+      {
+        "id": "143379",
+        "name": "LUNÄTICO (IT)"
+      },
+      {
+        "id": "65309",
+        "name": "Tear of Joy"
+      },
+      {
+        "id": "171370",
+        "name": "Rahbani"
+      },
+      {
+        "id": "47686",
+        "name": "Rabota"
+      },
+      {
+        "id": "153165",
+        "name": "FedUp"
+      },
+      {
+        "id": "150010",
+        "name": "input"
+      },
+      {
+        "id": "140940",
+        "name": "Mama Tzo"
+      },
+      {
+        "id": "135517",
+        "name": "STRAY SON"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2514525",
+    "title": "Open Doors: ESTER, Nisan, RADYK",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T07:00:00.000",
+    "contentUrl": "/events/2514525",
+    "flyerFront": null,
+    "attending": 132,
+    "venue": {
+      "id": "184597",
+      "name": "Ankali & Planeta Za",
+      "contentUrl": "/clubs/184597"
+    },
+    "artists": [
+      {
+        "id": "100197",
+        "name": "ESTER."
+      },
+      {
+        "id": "138616",
+        "name": "RADYK"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2505580",
+    "title": "Block x Omni: M-High, Captain Wallop b2b RTK Tarantino",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T02:30:00.000",
+    "contentUrl": "/events/2505580",
+    "flyerFront": null,
+    "attending": 125,
+    "venue": {
+      "id": "257372",
+      "name": "block.",
+      "contentUrl": "/clubs/257372"
+    },
+    "artists": [
+      {
+        "id": "95191",
+        "name": "M-High"
+      },
+      {
+        "id": "150508",
+        "name": "Captain Wallop"
+      },
+      {
+        "id": "169205",
+        "name": "RTK Tarantino"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2523894",
+    "title": "Golden Record NYC x pregame present JNJS",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T08:00:00.000",
+    "contentUrl": "/events/2523894",
+    "flyerFront": null,
+    "attending": 122,
+    "venue": {
+      "id": "278409",
+      "name": "Green Room NYC",
+      "contentUrl": "/clubs/278409"
+    },
+    "artists": [
+      {
+        "id": "113618",
+        "name": "JNJS"
+      },
+      {
+        "id": "100887",
+        "name": "Hilu"
+      },
+      {
+        "id": "106489",
+        "name": "Armii1n"
+      },
+      {
+        "id": "170574",
+        "name": "Rana Iravani"
+      },
+      {
+        "id": "179067",
+        "name": "John Everett"
+      },
+      {
+        "id": "136905",
+        "name": "Monk (2)"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2500022",
+    "title": "GIARDINO ELETTRONICO: Local Suicide, Waldo b2b cccre, Futuro Tropicale",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T23:00:00.000",
+    "endTime": "2026-09-06T06:00:00.000",
+    "contentUrl": "/events/2500022",
+    "flyerFront": null,
+    "attending": 121,
+    "venue": {
+      "id": "147211",
+      "name": "Tempio del Futuro Perduto",
+      "contentUrl": "/clubs/147211"
+    },
+    "artists": [
+      {
+        "id": "12732",
+        "name": "Local Suicide"
+      },
+      {
+        "id": "105909",
+        "name": "Waldo"
+      },
+      {
+        "id": "161541",
+        "name": "cccre"
+      },
+      {
+        "id": "51885",
+        "name": "Futuro Tropicale"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2486823",
+    "title": "X-Coast",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T03:00:00.000",
+    "contentUrl": "/events/2486823",
+    "flyerFront": null,
+    "attending": 120,
+    "venue": {
+      "id": "248652",
+      "name": "Pisces",
+      "contentUrl": "/clubs/248652"
+    },
+    "artists": [
+      {
+        "id": "76529",
+        "name": "X-Coast"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2511087",
+    "title": "NAACH x SOUNDWAVE present Simon Vuarambon & Volen Sentir",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T05:00:00.000",
+    "contentUrl": "/events/2511087",
+    "flyerFront": null,
+    "attending": 119,
+    "venue": {
+      "id": "300046",
+      "name": "TBA - Community Berlin (11819 Sherman Way, North Hollywood, CA, 91605, USA)",
+      "contentUrl": null
+    },
+    "artists": [
+      {
+        "id": "23327",
+        "name": "Simon Vuarambon"
+      },
+      {
+        "id": "83362",
+        "name": "Volen Sentir"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2492593",
+    "title": "Mostly Cloudy: B2B2B2B2B",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T21:00:00.000",
+    "endTime": "2026-09-06T04:00:00.000",
+    "contentUrl": "/events/2492593",
+    "flyerFront": null,
+    "attending": 121,
+    "venue": {
+      "id": "91478",
+      "name": "F8 1192 Folsom",
+      "contentUrl": "/clubs/91478"
+    },
+    "artists": [
+      {
+        "id": "145572",
+        "name": "QUEENIE (US)"
+      },
+      {
+        "id": "129395",
+        "name": "felipe d"
+      },
+      {
+        "id": "81595",
+        "name": "Akumen"
+      },
+      {
+        "id": "89360",
+        "name": "Andy Oro"
+      },
+      {
+        "id": "136453",
+        "name": "Milli Meng"
+      },
+      {
+        "id": "138157",
+        "name": "YANNI"
+      },
+      {
+        "id": "169811",
+        "name": "xtcemi"
+      },
+      {
+        "id": "162991",
+        "name": "HEAVENLY ARCH"
+      },
+      {
+        "id": "126783",
+        "name": "Profesito"
+      },
+      {
+        "id": "123264",
+        "name": "DJ Saratonin"
+      },
+      {
+        "id": "175191",
+        "name": "MALICIEL"
+      },
+      {
+        "id": "180126",
+        "name": "ANDYLAND"
+      }
+    ],
+    "flyerUrl": null
+  },
+  {
+    "id": "2486181",
+    "title": "Partiboi69, Harrison BDP presented by Goldenvoice",
+    "date": "2026-09-05T00:00:00.000",
+    "startTime": "2026-09-05T22:00:00.000",
+    "endTime": "2026-09-06T03:00:00.000",
+    "contentUrl": "/events/2486181",
+    "flyerFront": null,
+    "attending": 114,
+    "venue": {
+      "id": "35088",
+      "name": "Public Works",
+      "contentUrl": "/clubs/35088"
+    },
+    "artists": [
+      {
+        "id": "89128",
+        "name": "Partiboi69"
+      },
+      {
+        "id": "76688",
+        "name": "Harrison BDP"
+      }
+    ],
+    "flyerUrl": null
+  }
+]
