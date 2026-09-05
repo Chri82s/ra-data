@@ -3,7 +3,6 @@ import os
 import requests
 from datetime import datetime, timezone
 
-# URL en Headers voor Resident Advisor GraphQL API
 URL = "https://ra.co/graphql"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -11,7 +10,7 @@ HEADERS = {
     "Referer": "https://ra.co/events/nl/all"
 }
 
-# GraphQL Query voor evenementen in Nederland (Area ID 32 omvat voornamelijk NL/Amsterdam)
+# Uitgebreide GraphQL query met expliciet datumfilter
 GRAPHQL_QUERY = """
 query GET_DEFAULT_EVENTS_LISTING($indicesFilter: IndicesFilterInput, $pageSize: Int, $page: Int) {
   eventListing(indicesFilter: $indicesFilter, pageSize: $pageSize, page: $page) {
@@ -28,7 +27,6 @@ query GET_DEFAULT_EVENTS_LISTING($indicesFilter: IndicesFilterInput, $pageSize: 
         id
         name
         contentUrl
-        live
       }
       artists {
         id
@@ -41,11 +39,14 @@ query GET_DEFAULT_EVENTS_LISTING($indicesFilter: IndicesFilterInput, $pageSize: 
 """
 
 def fetch_events():
+    today_iso = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+    
     payload = {
         "query": GRAPHQL_QUERY,
         "variables": {
             "indicesFilter": {
-                "area": 32  # Nederland / Amsterdam area code op RA
+                "area": 32,
+                "dateFrom": f"{today_iso}T00:00:00.000Z"
             },
             "pageSize": 50,
             "page": 1
@@ -55,14 +56,12 @@ def fetch_events():
     response = requests.post(URL, json=payload, headers=HEADERS)
     
     if response.status_code == 200:
-        data = response.json()
-        events = data.get("data", {}).get("eventListing", {}).get("data", [])
+        res_json = response.json()
+        events = res_json.get("data", {}).get("eventListing", {}).get("data", [])
         
-        # Maak 'data' map aan als deze nog niet bestaat
         os.makedirs("data", exist_ok=True)
+        output_file = f"data/events_nl_{today_iso}.json"
         
-        # Sla op met datumstempel
-        output_file = f"data/events_nl_{datetime.now(timezone.utc).strftime('%Y-%m-%d')}.json"
         with open(output_file, "w", encoding="utf-8") as f:
             json.dump(events, f, ensure_ascii=False, indent=2)
             
