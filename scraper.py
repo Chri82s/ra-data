@@ -46,7 +46,11 @@ def fetch_events():
         "query": GRAPHQL_QUERY,
         "variables": {
             "indicesFilter": {
-                "area": 32
+                "area": 32,
+                "listingDate": {
+                    "gte": f"{today_date}T00:00:00.000Z",
+                    "lte": f"{today_date}T23:59:59.999Z"
+                }
             },
             "pageSize": 100,
             "page": 1
