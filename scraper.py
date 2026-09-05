@@ -12,7 +12,7 @@ HEADERS = {
     "Origin": "https://ra.co"
 }
 
-# Bijgewerkte query met FilterInputDtoInput en de geneste 'event' structuur
+# GraphQL query bijgewerkt met flyerFront (en optioneel flyerBack)
 GRAPHQL_QUERY = """
 query GET_EVENT_LISTINGS($filters: FilterInputDtoInput, $pageSize: Int, $page: Int) {
   eventListings(filters: $filters, pageSize: $pageSize, page: $page) {
@@ -25,7 +25,7 @@ query GET_EVENT_LISTINGS($filters: FilterInputDtoInput, $pageSize: Int, $page: I
         startTime
         endTime
         contentUrl
-        flyerUrl
+        flyerFront
         attending
         venue {
           id
@@ -72,8 +72,13 @@ def fetch_events():
 
         listings = res_json.get("data", {}).get("eventListings", {}).get("data", [])
         
-        # Uitpakken van de geneste event-objects voor de front-end
-        events = [item["event"] for item in listings if item.get("event")]
+        events = []
+        for item in listings:
+            ev = item.get("event")
+            if ev:
+                # We zetten flyerFront om naar flyerUrl zodat je eventuele front-end code niet hoeft aan te passen
+                ev["flyerUrl"] = ev.get("flyerFront")
+                events.append(ev)
         
         os.makedirs("data", exist_ok=True)
         output_file = f"data/events_nl_{today_date}.json"
